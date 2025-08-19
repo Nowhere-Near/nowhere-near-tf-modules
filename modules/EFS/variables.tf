@@ -52,3 +52,17 @@ variable "pvt_dns" {
   type        = bool
   default     = true
 }
+
+variable "backup_policy_status" {
+  description = "Status of the backup policy for the EFS file system"
+  type        = string
+  default     = "ENABLED"
+}
+
+
+variable "is_efs_backup_enabled" {
+  description = "Flag to indicate if EFS backup is enabled"
+  type        = bool
+  default     = false
+
+}

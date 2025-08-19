@@ -38,3 +38,4 @@ variable "ecr_repository_policy" {
   type        = string
   default     = ""
 }
+
